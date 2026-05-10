@@ -21,7 +21,7 @@ $ helm install robot-shop --set openshift=true --set nodeport=true helm
 
 To connect to the shop.
 
-```shell
+```shell 
 $ minishift ip
 192.168.99.106
 $ oc get svc web
